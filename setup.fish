@@ -1,12 +1,10 @@
-. me.fish
-. mixtures/brews.fish
-. mixtures/casks.fish
-. vim/vim.fish
+. install/brews.fish
 . fish/setup/fish.fish
-. tmux/tmux.fish
+. install/casks.fish
+. install/ruby.fish
 
-ferment
-setup_vim
+install_brews
 setup_fish
-setup_tmux
-drum
+install_casks
+install_gems
+cat totoro.fish
