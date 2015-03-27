@@ -1,33 +1,51 @@
 # osx-setup
 
-I wanted to make the installation of a new computer as easy as possible,
-borrowing the ideas of [Homebrew](http://brew.sh), I made the setup to be
-installable without having to clone a repo (_the installation will still
-clone the repo to your home directory, but into the `.osx-setup` directory_).
+This is a way to get a shiny new mac set up to how I just like it.
 
-## WARNING!!!
-_This installation script has been made for me and me only. If it renders
-your system unusable remember that you used it **AT YOUR OWN RISK**.
 
-## What will this do
+```
+             *
+       *   *
+     *    \* / *
+       * --.:. *
+      *   * :\ -
+        .*  | \
+       * *     \
+     .  *       \
+      ..        /\.
+     *          |\)|
+   .   *         \ |
+  . . *           |/\   Install all the things!
+     .* *         /  \
+   *              \ / \
+ *  .  *           \   \
+    * .  
+   *    *    
+  .   *    *  
 
-- Install homebrew
-- Install and configure the [fish shell](http://fishshell.com/)
-- Install all the formulae I use normally (_and some others_)
-- Install all the vim bundles and configure my vim environment
-- Install and configure my tmux environment
-- Install cask and install some of the software I use (_and some others_)
+```
 
-## Installation
+### What this does
+
+- Clones this repo into the ~/.osx-setup directory
+- Installs homebrew
+- Installs all the packages I normally use (_and some others_)
+- Installs and configures the [fish shell](http://fishshell.com/)
+- Installs cask
+- Installs some apps I normally use (_and some others_)
+- Installs ruby and a few starter gems
+
+### Installation
 
 If you want to install my configuration (**AT YOUR OWN RISK!**) run:
 
 ```
-curl -s https://raw.githubusercontent.com/ecomba/osx-setup/master/bootstrap.sh
-| bash
+curl -s https://raw.githubusercontent.com/sroop/osx-setup/master/bootstrap.sh | bash
 ```
 
-## Thanks
+### Trouble?
 
-This project is heavily inspired by @christophgockel's
-[dotfiles](https://github.com/christophgockel/dotfiles) project.
+Problems setting fish as the default shell? Check if `/usr/local/bin/fish` is included in the list of shells in `/etc/shells`. If not, open it in sublime: `sudo subl /etc/shells`, add it to the list, and then run: `chsh -s /usr/local/bin/fish`.
+
+
+Full credit and thanks to @ecomba's [osx-setup](https://github.com/ecomba/osx-setup) project.
