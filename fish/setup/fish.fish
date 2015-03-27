@@ -32,6 +32,6 @@ function _link_fish
     echo You already have a fish configuration file
   else
     echo Linking the configuration file
-    ln -s "$HOME/.mac-setup/fish/config/config.fish" "$HOME/.config/fish/config.fish"
+    ln -s "$HOME/.osx-setup/fish/config/config.fish" "$HOME/.config/fish/config.fish"
   end
 end

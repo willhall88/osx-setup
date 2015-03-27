@@ -1,5 +1,5 @@
-# Path to mac-setup directory
-set fish_path $HOME/.mac-setup/fish
+# Path to osx-setup directory
+set fish_path $HOME/.osx-setup/fish
 
 # Theme
 set fish_theme cbjohnson
