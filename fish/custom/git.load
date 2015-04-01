@@ -10,10 +10,6 @@ function gl -d "Git log with hash, branch, description, name and time"
   git log --pretty=tformat:'%Cred%h%Creset %Cblue%d%Creset %Cgreen%s%Creset %cn, %cr' --graph
 end
 
-function gt
-	git log --oneline --graph --decorate --all
-end
-
 function gp
   git push
 end
