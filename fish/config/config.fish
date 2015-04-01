@@ -32,13 +32,9 @@ end
 # Prepend extracted user functions so they have the highest priority.
 set fish_function_path $user_function_path $fish_function_path
 
+eval sh $HOME/.config/base16-shell/base16-isotope.dark.sh
+
 # Make sure to exit with $status of 1 when reloading the framework.
 or true
 
-# ---------------------------------
 
-
-eval sh $HOME/.config/base16-shell/base16-isotope.dark.sh
-
-set PATH $HOME/.rbenv/bin $PATH
-. (rbenv init -|psub)
