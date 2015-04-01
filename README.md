@@ -40,7 +40,7 @@ This is a way to get a shiny new mac set up to how I just like it.
 If you want to install my configuration (**AT YOUR OWN RISK!**) run:
 
 ```
-curl -s https://raw.githubusercontent.com/sroop/osx-setup/master/bootstrap.sh | bash
+curl -s https://raw.githubusercontent.com/willhall88/osx-setup/master/bootstrap.sh | bash
 ```
 
 ### Trouble?

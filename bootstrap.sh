@@ -27,7 +27,7 @@ if [ -d ~/.osx-setup ]; then
   cd ~/.osx-setup
   git pull
 else
-  git clone git@github.com:sroop/osx-setup.git ~/.osx-setup
+  git clone git@github.com:willhall88/osx-setup.git ~/.osx-setup
   cd ~/.osx-setup
 fi
 
