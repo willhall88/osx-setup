@@ -1,3 +1,29 @@
+function b
+  bundle exec
+end
+
 function be
   bundle exec
+end
+
+function ber
+  bundle exec rake
+end
+
+function rr
+	bundle exec rake routes
+end
+
+function bec -d "Execute cucumber"
+  bundle exec cucumber
+end
+
+function rsp -d "Run RSpec"
+  bundle exec rspec
+end
+
+function bundler_installed
+  if not test -f bundle
+    gem install bundler
+  end
 end

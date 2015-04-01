@@ -1,7 +1,6 @@
 function setup_fish
   _check_dot_config
   _check_fish_conf_dir
-  _add_base16
   _link_fish
 end
 
@@ -16,14 +15,6 @@ end
 function _check_fish_conf_dir
   if not test -e ~/.config/fish
     mkdir ~/.config/fish
-  end
-end
-
-function _add_base16
-  if not test -e ~/.config/base16-shell
-    git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
-  else
-    echo It seems that you have base 16 already installed, nice!
   end
 end
 

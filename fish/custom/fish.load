@@ -1,0 +1,15 @@
+function ll
+  ls -lhG
+end
+
+function cls
+  clear
+end
+
+function ..
+  cd ..
+end
+
+function s
+	subl
+end

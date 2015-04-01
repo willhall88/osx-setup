@@ -7,4 +7,3 @@ install_brews
 setup_fish
 install_casks
 install_gems
-cat totoro.fish
