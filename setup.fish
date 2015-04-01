@@ -4,6 +4,4 @@
 . install/ruby.fish
 
 install_brews
-setup_fish
 install_casks
-install_gems
