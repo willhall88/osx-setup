@@ -5,3 +5,5 @@
 
 install_brews
 install_casks
+setup_fish
+install_gems
