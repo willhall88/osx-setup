@@ -15,7 +15,7 @@ function install_gems -d "Installs rubies and gems"
       echo "$gem already installed... skipping"
     else
       echo "Installing: $gem"
-      gem install $gem
+      sudo gem install $gem
     end
   end
 end
