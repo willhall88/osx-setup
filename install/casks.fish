@@ -1,4 +1,4 @@
-function drum -d "Installs all the casks needed"
+function install_casks -d "Installs all the casks needed"
   echo "Now that your system is ready, let's install some UI apps"
 
   set installed_casks (brew cask list)

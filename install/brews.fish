@@ -1,4 +1,4 @@
-function ferment -d "Installs all the formulae needed"
+function install_brews -d "Installs all the formulae needed"
   echo "First let us install all the brews you'll need to get going"
 
   set installed_formulae (brew list)
@@ -6,7 +6,7 @@ function ferment -d "Installs all the formulae needed"
   set formulae  'rbenv' 'caskroom/cask/brew-cask' 'git' 'git-flow' 'tree' \
                 'chruby' 'chruby-fish' 'io' 'node' 'phantomjs' \
                 'ruby-build' 'mysql' 'postgresql' \
-                
+
 
   for formula in $formulae
     if contains $formula $installed_formulae
