@@ -2,7 +2,7 @@
 set fish_path $HOME/.osx-setup/fish
 
 # Theme
-set fish_theme cbjohnson
+set fish_theme bobthefish
 
 # Enable plugins by adding their name separated by a space to the line below.
 set fish_plugins theme jump git-flow chruby bundler rbenv sublime rails brew gem localhost
@@ -32,13 +32,12 @@ end
 # Prepend extracted user functions so they have the highest priority.
 set fish_function_path $user_function_path $fish_function_path
 
+# Make sure to exit with $status of 1 when reloading the framework.
+or true
+
+# ---------------------------------
 
 eval sh $HOME/.config/base16-shell/base16-isotope.dark.sh
 
 set PATH $HOME/.rbenv/bin $PATH
 . (rbenv init -|psub)
-
-# Make sure to exit with $status of 1 when reloading the framework.
-or true
-
-# ---------------------------------
