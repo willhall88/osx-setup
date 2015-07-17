@@ -5,7 +5,7 @@ function install_brews -d "Installs all the formulae needed"
 
   set formulae  'rbenv' 'caskroom/cask/brew-cask' 'git' 'git-flow' 'tree' \
                 'chruby' 'chruby-fish' 'io' 'node' 'phantomjs' \
-                'ruby-build' 'mysql' 'postgresql' \
+                'ruby-build' 'mysql' 'postgresql' 'python3' \
 
 
   for formula in $formulae
