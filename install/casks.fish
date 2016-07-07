@@ -3,11 +3,13 @@ function install_casks -d "Installs all the casks needed"
 
   set installed_casks (brew cask list)
 
-  set casks 'dropbox' '1password' 'alfred' 'mailbox' \
-            'google-chrome' 'google-chrome-canary' 'firefox' \
-            'iterm2' 'flowdock' 'virtualbox' 'cleanmymac' \
-            'evernote' 'dash' 'flux' 'spotify' 'skitch' 'skype' \
-            'google-drive' 'littleipsum' 'spectacle' 'telegram'
+  set casks 'dropbox' '1password' 'alfred' \
+            'google-chrome' 'firefox' 'slack' \
+            'iterm2' 'google-drive' 'spectacle' \
+            'evernote' 'flux' 'spotify' 'skitch' \
+            'caffeine' 'docker' 'franz' 'poedit' \
+            'recordit' 'sequel-pro' \
+
 
   for cask in $casks
     if contains $cask $installed_casks
