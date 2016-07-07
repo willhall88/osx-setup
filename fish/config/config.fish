@@ -5,7 +5,7 @@ set fish_path $HOME/.osx-setup/fish
 set fish_theme bobthefish
 
 # Enable plugins by adding their name separated by a space to the line below.
-set fish_plugins theme jump git-flow chruby bundler rbenv sublime rails brew gem localhost
+set fish_plugins theme jump bundler rbenv sublime rails brew gem localhost
 
 # Set fish_custom to the custom folder path
 if not set -q fish_custom
