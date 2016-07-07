@@ -1,7 +1,7 @@
 function install_gems -d "Installs rubies and gems"
   # Install preferred version of Ruby and set it as the global default
-  rbenv install 2.3.0
-  rbenv global 2.3.0
+  rbenv install 2.2.2
+  rbenv global 2.2.2
 
   # Update to the latest Rubygems version
   gem update --system
