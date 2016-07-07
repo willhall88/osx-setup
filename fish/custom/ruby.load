@@ -1,13 +1,13 @@
 function b
-  bundle exec
+  bundle exec $argv
 end
 
 function be
-  bundle exec
+  bundle exec $argv
 end
 
 function ber
-  bundle exec rake
+  bundle exec rake $argv
 end
 
 function rr

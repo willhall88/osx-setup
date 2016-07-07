@@ -29,3 +29,11 @@ end
 function gs
   git status
 end
+
+function gc
+  git checkout $argv[1]
+end
+
+function new
+  git checkout -b $argv[1]
+end
