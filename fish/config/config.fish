@@ -34,10 +34,7 @@ set fish_function_path $user_function_path $fish_function_path
 
 # Make sure to exit with $status of 1 when reloading the framework.
 or true
+eval sh $HOME/.config/base16-shell/scripts/base16-default-dark.sh
 
-# ---------------------------------
 
-eval sh $HOME/.config/base16-shell/base16-isotope.dark.sh
-
-set PATH $HOME/.rbenv/bin $PATH
-. (rbenv init -|psub)
+test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish

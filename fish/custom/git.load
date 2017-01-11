@@ -27,7 +27,7 @@ function grr
 end
 
 function gs
-  git status
+  git status -s
 end
 
 function gc

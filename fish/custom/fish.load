@@ -11,5 +11,9 @@ function ..
 end
 
 function s
-	subl
+	subl $argv[1]
+end
+
+function coresites-start
+  cd ~/git/factory-docker-images/coresites/compose ; env CORESITES_FOLDER=/Users/will/git/coresites docker-compose -f docker-compose-local.yml up
 end
